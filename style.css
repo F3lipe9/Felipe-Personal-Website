@@ -1,3 +1,32 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    color: black
+}
+
+#name {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+#name img {
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    text-align: right;
 }
