@@ -8,9 +8,9 @@ body {
 }
 
 nav {
-    background-color: #2c3e50;
+    background: linear-gradient(to right, #667eea 0%, #764ba2 100%);
+    color: white;
     padding: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -38,8 +38,8 @@ nav ul li a:hover {
 
 #name {
     text-align: center;
-    padding: 3rem 1rem;
-    background: linear-gradient(to bottom right, #667eea 0%, #764ba2 100%);
+    padding: 2rem 1rem 3rem;
+    background: linear-gradient(to right, #667eea 0%, #764ba2 100%);
     color: white;
 }
 
@@ -110,30 +110,9 @@ h2::after {
 }
 
 footer {
-    background-color: #2c3e50;
+    background-color: #667eea;
     color: white;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-top: 3rem;
-}
-
-
-/* Responsive design */
-@media (max-width: 768px) {
-    nav ul {
-        justify-content: center;
-        padding: 0 1rem;
-    }
-    
-    nav ul li {
-        margin: 0 1rem;
-    }
-    
-    #name h1 {
-        font-size: 2rem;
-    }
-    
-    #hobbies, #experiences {
-        padding: 0 1rem;
-    }
 }
