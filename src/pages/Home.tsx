@@ -1,0 +1,31 @@
+import { ThemeProvider } from '@/contexts/ThemeContext';
+import Navigation from '@/components/Navigation';
+import Hero from '@/components/Hero';
+import Experience from '@/components/Experience';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Testimonials from '@/components/Not Used/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+
+const Home = () => {
+  return (
+    <div className="min-h-screen transition-colors duration-300" style={{
+      backgroundColor: 'var(--bg-color)',
+      color: 'var(--text-color)',
+      minHeight: '100vh'
+    }}>
+      <Navigation />
+      <main id="main-content">
+        <Hero />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
